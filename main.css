@@ -81,7 +81,7 @@ button {
   margin-top: 20px;
 }
 .about__info {
-  width: 550px;
+  max-width: 550px;
 }
 .form__container {
   width: 550px;
@@ -238,12 +238,12 @@ footer {
   header {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 36px;
-    line-height: 40px;
   }
   .about {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 36px;
+    line-height: 40px;
   }
   .form {
     padding-left: 20px;
@@ -252,4 +252,11 @@ footer {
   footer {
     padding-left: 20px;
     padding-right: 20px;
+}
+.about__image {
+  width: 280px;
+}
+.about__sun-image {
+  width: 75px;
+  height: 75px;
 }
